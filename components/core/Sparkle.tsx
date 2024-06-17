@@ -4,7 +4,7 @@ import { SparklesCore } from "../ui/sparkle";
 
 export function SparklesPreview() {
   return (
-    <div className="h-[40rem]   absolute top-1/2 -translate-y-1/2 right-1/2 mt-32 translate-x-1/2 w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-[40rem]   absolute bottom-0 -translate-y-1/2 right-1/2 mt-32 translate-x-1/2 w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
     
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}

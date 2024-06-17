@@ -14,14 +14,16 @@ export default function Home() {
       <div className="p-12 h-">
       <BackgroundGradientAnimation className="">
    <div className="text-white/70 z-[999] text-5xl font-extrabold absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2">
+   <p>
    <span className="text-xl font-bold text-white/80">Welcome to</span><br />
-    Proto-Animation
+   Proto-Animation
+    </p>
+<SparklesPreview />      
    </div>
   
    <div className="absolute bottom-24 h-16 w-[50%] bg-white left-1/2 -translate-x-1/2 rounded-2xl z-10 overflow-hidden">
     <button className="tbutton h-full w-full overflow-hidden">click me</button>
    </div>
-<SparklesPreview />      
 
    </BackgroundGradientAnimation>
       </div>
