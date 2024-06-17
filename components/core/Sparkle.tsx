@@ -4,8 +4,8 @@ import { SparklesCore } from "../ui/sparkle";
 
 export function SparklesPreview() {
   return (
-    <div className="h-[40rem]  absolute top-1/2 -translate-y-1/2 right-1/2 mt-12 translate-x-1/2 w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-5xl text-3xl lg:text-5xl font-bold text-start text-white/80 relative z-20">
+    <div className="h-[40rem] z-[9999]  absolute top-1/2 -translate-y-1/2 right-1/2 mt-12 translate-x-1/2 w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <h1 className="md:text-5xl text-3xl lg:text-5xl font-bold text-start text-white/80 relative z-[99999]">
         <span className="text-2xl text-white/80">Welcome</span><br />
         Proto-Animation
       </h1>
